@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETPatterns.Factory", "ASPNETPatterns.Model\ASPNETPatterns.Factory.csproj", "{7AD0453C-0A19-49AA-B027-1D1A39EF3D57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETPatterns.Factory.Tests", "ASPNETPatterns.Model.Tests\ASPNETPatterns.Factory.Tests.csproj", "{2E54A8EF-1F22-46C1-A2B5-5D5231311A98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETPatterns.Decorator", "ASPNETPatterns.Decorator\ASPNETPatterns.Decorator.csproj", "{8494D9DF-5BD7-4784-81F8-DC4F3A5C98E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETPatterns.TemplateMethod", "ASPNETPatterns.TemplateMethod\ASPNETPatterns.TemplateMethod.csproj", "{2C768CF9-2BB9-4351-9C12-DCFCDD4FDE95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETPatterns.State", "ASPNETPatterns.State\ASPNETPatterns.State.csproj", "{467FE791-DDCF-49F2-ADC6-7D03FDA913D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETPatterns.Strategy", "ASPNETPatterns.Strategy\ASPNETPatterns.Strategy.csproj", "{DC2FDEC1-A5EB-4E58-B7DA-EB5BBE0CC1A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETPatterns.Specification", "ASPNETPatterns.Specification\ASPNETPatterns.Specification.csproj", "{F1846507-E5AB-49DC-8B62-2F1752892F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETPatterns.LayerSuperType", "ASPNETPatterns.LayerSuperType\ASPNETPatterns.LayerSuperType.csproj", "{0711BCED-5B1A-4338-9FDD-6540ED40196B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETPatterns.DI", "ASPNETPatterns.DI\ASPNETPatterns.DI.csproj", "{C1693ED8-6C2C-4C01-A259-D8B2B8D5EB5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETPatterns.IS", "ASPNETPatterns.IS\ASPNETPatterns.IS.csproj", "{444F9993-3DB2-41FD-948F-F2BC34A8C295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETPatterns.LSP", "ASPNETPatterns.LSP\ASPNETPatterns.LSP.csproj", "{95FFC09C-8020-465A-8246-BC81C65187CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AD0453C-0A19-49AA-B027-1D1A39EF3D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD0453C-0A19-49AA-B027-1D1A39EF3D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD0453C-0A19-49AA-B027-1D1A39EF3D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD0453C-0A19-49AA-B027-1D1A39EF3D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E54A8EF-1F22-46C1-A2B5-5D5231311A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E54A8EF-1F22-46C1-A2B5-5D5231311A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E54A8EF-1F22-46C1-A2B5-5D5231311A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E54A8EF-1F22-46C1-A2B5-5D5231311A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8494D9DF-5BD7-4784-81F8-DC4F3A5C98E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8494D9DF-5BD7-4784-81F8-DC4F3A5C98E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8494D9DF-5BD7-4784-81F8-DC4F3A5C98E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8494D9DF-5BD7-4784-81F8-DC4F3A5C98E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C768CF9-2BB9-4351-9C12-DCFCDD4FDE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C768CF9-2BB9-4351-9C12-DCFCDD4FDE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C768CF9-2BB9-4351-9C12-DCFCDD4FDE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C768CF9-2BB9-4351-9C12-DCFCDD4FDE95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{467FE791-DDCF-49F2-ADC6-7D03FDA913D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{467FE791-DDCF-49F2-ADC6-7D03FDA913D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{467FE791-DDCF-49F2-ADC6-7D03FDA913D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{467FE791-DDCF-49F2-ADC6-7D03FDA913D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC2FDEC1-A5EB-4E58-B7DA-EB5BBE0CC1A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC2FDEC1-A5EB-4E58-B7DA-EB5BBE0CC1A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC2FDEC1-A5EB-4E58-B7DA-EB5BBE0CC1A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC2FDEC1-A5EB-4E58-B7DA-EB5BBE0CC1A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1846507-E5AB-49DC-8B62-2F1752892F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1846507-E5AB-49DC-8B62-2F1752892F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1846507-E5AB-49DC-8B62-2F1752892F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1846507-E5AB-49DC-8B62-2F1752892F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0711BCED-5B1A-4338-9FDD-6540ED40196B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0711BCED-5B1A-4338-9FDD-6540ED40196B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0711BCED-5B1A-4338-9FDD-6540ED40196B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0711BCED-5B1A-4338-9FDD-6540ED40196B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1693ED8-6C2C-4C01-A259-D8B2B8D5EB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1693ED8-6C2C-4C01-A259-D8B2B8D5EB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1693ED8-6C2C-4C01-A259-D8B2B8D5EB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1693ED8-6C2C-4C01-A259-D8B2B8D5EB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444F9993-3DB2-41FD-948F-F2BC34A8C295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444F9993-3DB2-41FD-948F-F2BC34A8C295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444F9993-3DB2-41FD-948F-F2BC34A8C295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444F9993-3DB2-41FD-948F-F2BC34A8C295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95FFC09C-8020-465A-8246-BC81C65187CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95FFC09C-8020-465A-8246-BC81C65187CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95FFC09C-8020-465A-8246-BC81C65187CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95FFC09C-8020-465A-8246-BC81C65187CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
